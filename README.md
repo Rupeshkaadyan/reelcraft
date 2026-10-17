@@ -125,14 +125,20 @@ reelcraft/
     Features/                 Projects, Editor, Camera, Ideas, Discover, Insights
     Resources/Sounds/         generated music beds
   ReelcraftTests/             render pipeline tests
-  tools/                      asset, music, screenshot and seed scripts
+  tools/                      assets, music, screenshots, preflight and listing checks
   Marketing/                  icon, wallpaper, screenshots, App Store frames, privacy page
   replica/                    recon, architecture, brand, build log, feature matrix, listing
 ```
 
 ## Shipping to the App Store
 
-Everything here is ready; the remaining steps need your Apple account.
+Everything here is ready; the remaining steps need your Apple account. Run the whole chain before you touch App Store Connect:
+
+```bash
+bash tools/preflight.sh
+```
+
+It checks every local doc link, lints the store listing, runs the four render tests, and archives a Release build for iPhone — signed and exported to an IPA when a Team ID is present, unsigned otherwise. [`SUBMISSION.md`](SUBMISSION.md) is the paste-ready App Store Connect answer sheet: app record fields, privacy answers, review notes and the TestFlight checklist.
 
 1. **Apple Developer Program** — enrol, then note your **Team ID**.
 2. **Bundle identifier** — either keep `com.reelcraft.app` or change it in `project.yml` (`PRODUCT_BUNDLE_IDENTIFIER`), then register it in [Certificates, Identifiers & Profiles](https://developer.apple.com/account/resources/identifiers).
