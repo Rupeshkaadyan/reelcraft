@@ -1,0 +1,13 @@
+.DS_Store
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+__pycache__/
+*.pyc
+Marketing/review/
+Reelcraft.xcodeproj/project.xcworkspace/xcuserdata/
+Reelcraft.xcodeproj/xcuserdata/

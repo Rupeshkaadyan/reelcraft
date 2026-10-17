@@ -1,0 +1,16 @@
+{
+  "avoid": [
+    "Edits",
+    "Instagram",
+    "Meta",
+    "CapCut"
+  ],
+  "app_store": {
+    "name": "Reelcraft: Video Editor",
+    "subtitle": "Trim, caption and export in 4K",
+    "promotional_text": "New: six starter templates that set the frame, grade, type and music for you. No watermark, no account.",
+    "description": "Reelcraft is a fast, private video editor built for short-form cuts.\n\nDrop in clips from your library, trim them to the frame, split at the playhead and retime any shot. Grade the whole edit with one tap or grade clip by clip. Add text and captions that sit on the timeline exactly where you want them. Pick a music bed and export clean.\n\nEDIT WITH PRECISION\n- Frame-accurate trimming with in and out points\n- Split, reorder, duplicate and delete clips\n- Speed from 0.25x to 3x with the timeline duration following along\n- Undo and redo, so experimenting is safe\n\nLOOK AND SOUND\n- Seven colour grades, from natural to noir\n- Four in-house music beds that loop to the length of your cut\n- Per-clip volume and mute, so one loud clip does not wreck the mix\n- Text with four styles, five colours and timing you control\n\nCAPTIONS THAT STAY ON DEVICE\n- Generate captions from your clip audio with on-device speech recognition\n- Edit, retime or delete any line\n- Nothing is uploaded. There is no account and no sign-in\n\nBUILT FOR SHORT-FORM\n- Frame presets for 9:16, 4:5, 1:1 and 16:9\n- Export 1080p or 4K with no watermark\n- Save straight to Photos or share anywhere\n- Projects save as you work and stay on your iPhone\n\nAlso included: a sticky-note board for ideas and a local insights view that shows your export habits, minutes cut and most-used grade.\n\nReelcraft needs photo library access to import and save video, and camera access only if you record inside the app. Captions use the speech framework on device.",
+    "keywords": "reels,short form,no watermark,clips,timeline,filter,creator,montage,music,voiceover,social",
+    "whats_new": "First release. Timeline editing, grades, text, captions, music beds and 4K export."
+  }
+}

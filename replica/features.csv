@@ -1,0 +1,42 @@
+feature,area,priority,original,clone,notes
+Import video from the photo library,media pipeline,must,yes,yes,PhotosPicker copies into app storage and normalises orientation
+Multi-clip timeline,editor,must,yes,yes,Proportional clip strip with ruler and playhead
+Frame accurate trim in and out,editor,must,yes,yes,In and out sliders plus one-frame stepping
+Split clip at the playhead,editor,must,yes,yes,
+Reorder clips,editor,must,yes,yes,Move left and right from the trim panel
+Duplicate and delete a clip,editor,should,yes,yes,
+Live preview with scrubbing,editor,must,yes,yes,AVPlayer plays the built composition
+Undo and redo,editor,should,yes,yes,40 snapshot history
+Speed control from 0.25x to 3x,editor,must,yes,yes,Timeline duration follows the retime
+Per clip volume and mute,audio,must,yes,yes,
+Background music bed looped with a fade,audio,must,yes,yes,Four synthesised beds owned by the app
+Voiceover recording,audio,could,yes,no,Roadmap
+Audio cleanup and voice enhance,audio,could,yes,no,Roadmap
+Automatic captions,captions,must,yes,partial,On device Speech framework; needs permission and the on device model
+Caption styling,captions,should,yes,yes,Four styles with colour choices
+Text overlays,text,must,yes,yes,Style position colour and timing controls
+Keyframes,editor,could,yes,no,Roadmap
+Green screen and cutout,effects,should,yes,no,Roadmap - needs a segmentation model
+Animate still images,effects,could,yes,no,Roadmap
+Video filters,effects,must,yes,yes,Seven Core Image grades per clip
+Effect search and customisation,effects,could,yes,no,Roadmap
+Stickers and GIFs,effects,should,yes,no,Needs a licensed asset library
+Aspect ratios 9:16 4:5 1:1 and 16:9,frame,must,yes,yes,Centre crop fill at the project render size
+Export 1080p without a watermark,export,must,yes,yes,
+Export up to 4K without a watermark,export,must,yes,yes,Renders at the 2160p equivalent size
+Save to Photos and share,export,must,yes,yes,Add only Photos permission plus the system share sheet
+Projects and drafts library,library,must,yes,yes,
+Sort projects,library,could,yes,yes,Five sort modes including longest first
+Rename duplicate and delete a project,library,should,yes,yes,
+Project folders,library,could,yes,no,Roadmap
+Camera capture up to 10 minutes,capture,must,yes,partial,Built with AVFoundation; needs a physical device to verify end to end
+Camera resolution frame rate and dynamic range,capture,should,yes,no,Roadmap beyond the default high preset
+Teleprompter,capture,could,yes,no,Roadmap
+Idea stickies,creator flow,must,yes,yes,Turn a note into a project
+Saved reels and collections,creator flow,skip,yes,no,Instagram account data - not clonable
+Reels discovery feed with trending audio,creator flow,skip,yes,no,Licensed catalogue and network - not clonable
+Templates,creator flow,should,yes,yes,Six templates set frame grade type and sound
+Storyboards and scripts,creator flow,could,yes,no,Roadmap
+Creator insights dashboard,creator flow,must,yes,partial,Local edit and export stats; account metrics need platform data
+Retention and engagement graphs,creator flow,could,yes,no,Requires published post data
+Sign in with Instagram,account,skip,yes,no,Meta account system - not clonable
