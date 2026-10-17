@@ -5,10 +5,18 @@ A short-form video editor for iPhone, built clean-room from the feature set and 
 Everything here is generated or written in this folder: the icon, the wallpaper, the four music beds and every line of Swift.
 
 <p align="left">
-  <img src="Marketing/icon-512.png" width="96" alt="Reelcraft icon">
-  <img src="Marketing/screens-max/02-editor.png" width="180" alt="Editor screen">
-  <img src="Marketing/screens-max/01-projects.png" width="180" alt="Projects screen">
-  <img src="Marketing/screens-max/03-discover.png" width="180" alt="Templates">
+  <img src="Marketing/icon-512.png" width="96" alt="Reelcraft app icon">
+  <img src="Marketing/appstore/02-editor.png" width="150" alt="Editor with timeline, grade and text overlay">
+  <img src="Marketing/appstore/01-projects.png" width="150" alt="Projects library">
+  <img src="Marketing/appstore/03-discover.png" width="150" alt="Templates">
+</p>
+
+<!-- Marketing/screens-max/ holds the raw captures this pair of scripts produces. -->
+<p align="left">
+  <img src="Marketing/screens-max/editor.png" width="150" alt="Editor on iPhone 17 Pro Max">
+  <img src="Marketing/screens-max/projects.png" width="150" alt="Projects on iPhone 17 Pro Max">
+  <img src="Marketing/screens-max/insights.png" width="150" alt="Insights on iPhone 17 Pro Max">
+  <img src="Marketing/screens-max/ideas.png" width="150" alt="Ideas on iPhone 17 Pro Max">
 </p>
 
 ## What it does
@@ -29,6 +37,29 @@ Everything here is generated or written in this folder: the icon, the wallpaper,
 | Insights | Local exports, minutes, project stats, weekly chart, most-used grade/sound |
 
 No account, no networking, no third-party SDKs.
+
+## Screenshots
+
+App Store frames (1320 × 2868), captured from the running app on an iPhone 17 Pro Max simulator:
+
+<p align="left">
+  <img src="Marketing/appstore/01-projects.png" width="19%" alt="Projects library">
+  <img src="Marketing/appstore/02-editor.png" width="19%" alt="Editor timeline with a grade and a text overlay">
+  <img src="Marketing/appstore/03-discover.png" width="19%" alt="Template gallery">
+  <img src="Marketing/appstore/04-ideas.png" width="19%" alt="Ideas board">
+  <img src="Marketing/appstore/05-insights.png" width="19%" alt="Insights dashboard">
+</p>
+
+Icon, feature graphic and the raw device captures:
+
+<p align="left">
+  <img src="Marketing/icon-512.png" width="72" alt="Reelcraft app icon">
+  <img src="Marketing/wallpaper-1290x2796.png" width="140" alt="Launch and feature graphic">
+  <img src="Marketing/screens-max/record.png" width="140" alt="Record tab">
+  <img src="Marketing/screens-max/discover.png" width="140" alt="Discover tab">
+</p>
+
+Every path above is checked by `python3 tools/check_readme_links.py` before each push, so a renamed asset cannot quietly turn into a broken image.
 
 ## Requirements
 
